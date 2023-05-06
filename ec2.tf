@@ -29,5 +29,4 @@ resource "null_resource" "app" {
           "ansible-pull -U https://github.com/b53-clouddevops/ansible.git -e COMPONENT=rabbitmq -e ENV=dev robot-pull.yml"
         ]
     }
-
 }
